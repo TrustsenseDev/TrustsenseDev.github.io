@@ -40,21 +40,29 @@ body {
 
 header {
     background-color: var(--card-bg-color);
-    padding: 2rem 1rem;
+    padding: 1rem;
     border-bottom: 1px solid var(--border-color);
-    position: relative;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 h1 {
     color: var(--header-color);
     text-align: center;
     font-size: 2rem;
-    margin: 0 0 1rem 0;
+    margin: 1rem 0;
 }
 
 .search-container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 2rem auto 0;
     padding: 0 1rem;
 }
 
@@ -76,6 +84,7 @@ main {
     max-width: 1200px;
     margin: 2rem auto;
     padding: 0 1rem;
+    padding-top: 2rem;
 }
 
 .app-grid {
@@ -211,16 +220,15 @@ footer {
 
 
 .discord-links {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
     display: flex;
     gap: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .discord-link {
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0.5rem 0.75rem;
     border-radius: 4px;
     text-decoration: none;
@@ -239,6 +247,7 @@ footer {
     width: 20px;
     height: 20px;
     margin-right: 0.5rem;
+    display: none;
 }
 
 /* Responsive styles */
@@ -272,6 +281,24 @@ footer {
         font-size: 0.8125rem;
     }
 
+    .header-content {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+
+    .search-container {
+        margin-top: 1.5rem;
+    }
+
+    .discord-links {
+        margin-bottom: 0;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
     .social-links {
         flex-direction: column;
         align-items: center;
@@ -295,7 +322,7 @@ footer {
     }
 
     .search-container {
-        padding: 0 0.5rem;
+        margin-top: 1.5rem;
     }
 
     main {
@@ -304,6 +331,7 @@ footer {
 
     .app-grid {
         grid-template-columns: 1fr;
+        margin-top: 2rem;
     }
 
     .app-icon {
