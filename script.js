@@ -16,6 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
             link: "https://example.com/fluxus"
         },
         {
+            name: "Fluxus Lite",
+            status: "issues",
+            image: "./exploits-imgs/fluxus.png",
+            link: "https://example.com/fluxus"
+        },
+        {
             name: "Codex",
             status: "offline",
             image: "/exploits-imgs/codex.png",
