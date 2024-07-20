@@ -1,0 +1,347 @@
+:root {
+    --bg-color: #0d1117;
+    --card-bg-color: #161b22;
+    --text-color: #c9d1d9;
+    --header-color: #ffffff;
+    --border-color: #30363d;
+    --btn-bg-color: #238636;
+    --btn-hover-color: #2ea043;
+    --status-operational: #238636;
+    --status-issues: #d29922;
+    --status-offline: #f85149;
+    --search-bg: #21262d;
+    --search-text: #c9d1d9;
+    --search-border: #30363d;
+    --discord-bg: #5865F2;
+    --discord-hover: #4752C4;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-wrapper {
+    flex: 1 0 auto;
+}
+
+
+header {
+    background-color: var(--card-bg-color);
+    padding: 2rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+    position: relative;
+}
+
+h1 {
+    color: var(--header-color);
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+}
+
+.search-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+#search-input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid var(--search-border);
+    border-radius: 6px;
+    background-color: var(--search-bg);
+    color: var(--search-text);
+}
+
+#search-input::placeholder {
+    color: #8b949e;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.app-card {
+    background-color: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    min-height: 240px;
+    justify-content: space-between;
+}
+
+.app-card:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.app-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    object-fit: contain;
+    background-color: var(--card-bg-color);
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-name {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color: var(--header-color);
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.status-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.status-text {
+    font-size: 0.875rem;
+}
+
+.operational .status-indicator {
+    background-color: var(--status-operational);
+}
+
+.issues .status-indicator {
+    background-color: var(--status-issues);
+}
+
+.offline .status-indicator {
+    background-color: var(--status-offline);
+}
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    transition: background-color 0.2s ease;
+    background-color: var(--btn-bg-color);
+}
+
+.download-btn:hover {
+    background-color: var(--btn-hover-color);
+}
+
+.download-icon {
+    margin-right: 0.5rem;
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: var(--card-bg-color);
+    border-top: 1px solid var(--border-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-content p {
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.discord-section {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.discord-section h2 {
+    color: var(--header-color);
+    margin-bottom: 1rem;
+}
+
+
+.discord-links {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.discord-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    transition: background-color 0.2s ease;
+    background-color: var(--discord-bg);
+}
+
+.discord-link:hover {
+    background-color: var(--discord-hover);
+}
+
+.discord-link svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    .app-icon {
+        width: 56px;
+        height: 56px;
+        border-radius: 10px;
+        padding: 6px;
+    }
+
+    .app-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+
+    .app-card {
+        min-height: 220px;
+    }
+
+    .app-name {
+        font-size: 1rem;
+    }
+
+    .download-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8125rem;
+    }
+
+    .social-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .discord-links {
+        position: static;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    header {
+        padding: 1.5rem 0.5rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .search-container {
+        padding: 0 0.5rem;
+    }
+
+    main {
+        padding: 0 0.5rem;
+    }
+
+    .app-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .app-icon {
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+        padding: 4px;
+    }
+
+    .app-card {
+        min-height: 200px;
+    }
+
+    .discord-links {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .discord-link {
+        text-align: center;
+    }
+}
+
+@media (max-width: 926px) and (orientation: landscape) {
+    .app-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .app-card {
+        padding: 1rem;
+    }
+
+    .app-name {
+        font-size: 1rem;
+    }
+
+    .download-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8125rem;
+    }
+}
