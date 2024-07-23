@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Arceus X Neo",
             status: "operational",
             image: "./exploits-imgs/arceus-x-neo.png",
-            link: "https://www.mediafire.com/file/o9ljj7ga83wzsdh/Roblox_Arceus_X_NEO_1.3.6.apk/file"
+            link: "https://www.mediafire.com/file/dgd1ropmmmpx0q2/Roblox_Arceus_X_NEO_1.3.7.apk/file"
         }
     ];
 
