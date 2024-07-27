@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Codex",
             status: "operational",
             image: "/exploits-imgs/codex.png",
-            link: "https://www.mediafire.com/file/u10n7v85jqhjyyr/Codex+2.628+FIX.apk/file"
+            link: "https://www.mediafire.com/file/2y9dgli8qpqzr5i/Codex.apk/file"
         },
         {
             name: "Arceus X Neo",
