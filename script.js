@@ -7,17 +7,17 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Delta",
             status: "operational",
             image: "./exploits-imgs/delta.png",
-            link: "https://www.mediafire.com/file/hzid6rw5f4y11tw/Delta+V2.635.apk/file"
+            link: "https://www.mediafire.com/file/m5i7iywjzaxozgr/Delta-2.635.590.apk/file"
         },
         {
             name: "Fluxus",
-            status: "operational",
+            status: "offline",
             image: "./exploits-imgs/fluxus.png",
             link: "https://www.mediafire.com/file/6skkb0riyg5z4gh/Official_Fluxus_v2.635.apk/file"
         },
         {
             name: "Fluxus Lite",
-            status: "operational",
+            status: "offline",
             image: "./exploits-imgs/fluxus.png",
             link: "https://www.mediafire.com/file/4hecz7kjhw6d7hm/Flisick_Lite_32_%2B_64_bit.apk/file"
         },
