@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Fluxus",
-            status: "offline",
+            status: "operational",
             image: "./exploits-imgs/fluxus.png",
-            link: "https://www.mediafire.com/file/6skkb0riyg5z4gh/Official_Fluxus_v2.635.apk/file"
+            link: "https://www.mediafire.com/file/x7qtxunx1pjuyvx/fluxusv2.apk/file"
         },
         {
             name: "Fluxus Lite",
