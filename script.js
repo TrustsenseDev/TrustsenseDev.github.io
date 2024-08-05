@@ -7,13 +7,13 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Delta",
             status: "operational",
             image: "./exploits-imgs/delta.png",
-            link: "https://www.mediafire.com/file/m5i7iywjzaxozgr/Delta-2.635.590.apk/file"
+            link: "https://www.mediafire.com/file/0q3cy0h7aij6ge3/Delta_v2.635_32bit_%2526_64bit_%255BCrash_Fixed%255D.apk/file"
         },
         {
             name: "Fluxus",
             status: "operational",
             image: "./exploits-imgs/fluxus.png",
-            link: "https://www.mediafire.com/file/x7qtxunx1pjuyvx/fluxusv2.apk/file"
+            link: "https://www.mediafire.com/file/jatb7eior6el7qt/Official_Fluxus_v2.633.apk/file?dkey=dnmrfbi1cwh&r=598"
         },
         {
             name: "Fluxus Lite",
@@ -25,13 +25,13 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Codex",
             status: "operational",
             image: "/exploits-imgs/codex.png",
-            link: "https://www.mediafire.com/file/bwhk1a3p5woljj5/Codex+V2.635.apk/file"
+            link: "https://www.mediafire.com/file/i31ryl5symfa3li/Codex_v2.635_64bit_%255BCrash_Fixed%255D.apk/file"
         },
         {
             name: "Arceus X Neo",
             status: "operational",
             image: "./exploits-imgs/arceus-x-neo.png",
-            link: "https://www.mediafire.com/file/1ejheagqwl5m3qn/Arceus_V2.635.apk/file"
+            link: "https://www.mediafire.com/file/cbwl6qa16gtoxaj/Roblox_Arceus_X_NEO_1.3.8.apk/file"
         }
     ];
 
