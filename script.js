@@ -17,9 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Fluxus Lite",
-            status: "offline",
+            status: "operational",
             image: "./exploits-imgs/fluxus.png",
-            link: "https://www.mediafire.com/file/4hecz7kjhw6d7hm/Flisick_Lite_32_%2B_64_bit.apk/file"
+            link: "https://www.mediafire.com/file/ap5of7ugwqv8it7/Fluxus+Lite.apk/file"
         },
         {
             name: "Codex",
