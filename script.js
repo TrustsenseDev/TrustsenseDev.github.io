@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Delta Lite",
             status: "operational",
             image: "./exploits-imgs/delta.png",
-            link: " https://www.mediafire.com/file/oreg0z9owbk9uyq/Delta+Lite[Crash+Fixed].apk/file"
+            link: "https://www.mediafire.com/file/edrz7i22rpp9exk/2.636_Delta_Lite_x64.apk/file"
         },
         {
             name: "Codex",
