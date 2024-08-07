@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Delta",
             status: "operational",
             image: "./exploits-imgs/delta.png",
-            link: "https://www.mediafire.com/file/0q3cy0h7aij6ge3/Delta_v2.635_32bit_%2526_64bit_%255BCrash_Fixed%255D.apk/file"
+            link: "https://www.mediafire.com/file/evghfeotc9tpu0z/Delta-2.636.626.apk/file"
         },
         {
             name: "Fluxus",
